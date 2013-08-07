@@ -1,9 +1,6 @@
 define(['durandal/http', 'durandal/app'], function() {
     return {
         displayText: 'FusionCharts in a SPA app!',
-        activate: function () {
-            
-        },
         viewAttached: function(view) {
             
             if (typeof FusionCharts('myChartId') === 'undefined') {
